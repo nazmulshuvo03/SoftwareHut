@@ -1,0 +1,188 @@
+body {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #BDBDBD;
+}
+
+/* Header style */
+.header-div {
+    width: 100%;
+    content:"";
+    display: inline-table;
+    clear:both;
+}
+
+#top-left {
+    width: 30%;
+    float: left;
+}
+#header {
+    font-family: Lobster, Monospace;
+    margin-left: 150px;
+    font-size: 70px;
+    float: left;
+    color: rgba(52, 152, 219,0.7);
+}
+#top-right {
+    width: 10%;
+    float: right;
+    padding: 20px 60px;
+}
+
+/* Navigation Bar */
+ul {
+    list-style-type: none;
+    background-color: rgba(41, 128, 185,0.5);
+    margin: 2px;
+    padding: 0;
+    overflow: hidden;
+}
+ul li {
+    width: 19.9%;
+    float: left;
+    border-right: 1px solid black;
+}
+ul li a {
+    display: block;
+    color: rgba(52, 73, 94,1.0);
+    text-align: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 20px;
+}
+.active {
+    background-color: #117f99;
+}
+
+ul li a:hover {
+    background-color: #333333;
+}
+ul li a:visited {
+    background-color: #f1c40f ;
+}
+
+.submenu {
+    position: absolute;
+    display: none;
+    background-color: rgba(41, 128, 185,0.8);
+}
+.sub:hover .submenu {
+    display: block;
+}
+.submenu a {
+    color: rgba(52, 73, 94,1.0);
+    border: none;
+    padding: 12px 15px;
+    text-decoration: none;
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Middle discription area */
+.middle_area {
+    display: inline-table;
+    width: 100%;
+    clear: both;
+    background-color: #9E9E9E;
+    padding: 10px;
+    box-sizing: border-box;
+    margin: 2px;
+}
+#middle-img {
+    float: left;
+    width: 50%;
+    height: 50%;
+}
+#middle-text {
+    color: #d35400;
+    float: right;
+    width: 50%;
+    height: 50%;
+    padding-top: 10px;
+    font-size: 20px;
+}
+
+#middle-text h3  {
+    font-family: Arial;
+    padding: 0 15px;
+    text-decoration: underline;
+}
+
+#middle-text p  {
+    font-family: "Fira Code";
+    padding: 0 15px;
+}
+
+/* Form Style */
+.form {
+    background-color: #ccc;
+    padding: 20px;
+    display: inline-block;
+    width: 100%;
+    margin: 2px;
+}
+
+.form h2 {
+    text-align: center;
+    color: #2c3033;
+}
+
+.form input[type=text], .form input[type=email] {
+    width: 30%;
+    padding: 10px;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin: 10px 0;
+    border: 1px dashed #ccc;
+}
+
+.form label {
+    font-size: 20px;
+}
+
+textarea {
+    width: 30%;
+    padding: 20px;
+    border-radius: 4px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px dashed #ccc;
+    margin-bottom: 10px;
+}
+#submit_button {
+    width: 15%;
+    padding: 10px;
+    font-size: 20px;
+    border-radius: 7px;
+    display: inline-block;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+}
+#submit_button:hover {
+    background-color: #9E9E9E;
+    padding: 7px;
+    font-size: 25px;
+}
+
+/* Footer style*/
+.footer {
+    background-color: #333331;
+    width: 100%;
+    padding: 2px 20px 2px 0;
+    color: #fff;
+    margin: 2px;
+    text-align: right;
+    bottom: 0;
+    right: 0;
+    display: inline-block;
+}
+#footer-left {
+    float: left;
+    font-size: large;
+    padding: 20px;
+}
+#footer-right {
+    float: right;
+}
